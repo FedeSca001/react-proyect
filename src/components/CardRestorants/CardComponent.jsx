@@ -12,7 +12,9 @@ function CardComponent (){
     getData();
     return (
         <div className='contenedor-card'>
-            <h3>Restorant Name: {restorants[0].id !== true ? restorants[0].id : ''}</h3>
+            <img src="img" alt="img" />
+            <h3>Restorant Name:</h3>
+            <p>All Foods</p>
         </div>
     );
 }
