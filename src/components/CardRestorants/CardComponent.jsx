@@ -1,10 +1,10 @@
 import './CardRestorant.css'
 
-function CardComponent (props){
+function CardComponent (sites){
     return (
         <div className='contenedor-card'>
-            <img src={props.avatar} alt="img" />
-            <h3>Restorant Name:{props.name}</h3>
+            <img alt="img" />
+            <h3>Restorant Name:</h3>
             <p>All Foods</p>
         </div>
     );
