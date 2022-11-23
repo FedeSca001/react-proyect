@@ -1,6 +1,7 @@
 import './CardRestorant.css'
 
-function CardComponent (sites){
+function CardComponent (props){
+    console.log(props.objects);
     return (
         <div className='contenedor-card'>
             <img alt="img" />
